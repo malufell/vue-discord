@@ -13,12 +13,9 @@ export default {};
 <style lang="scss">
   
   .chat {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    @include alignFlex(column, center);
     width: 70%;
     height: 100%;
-    background-color: #36393f;  
+    background-color: $bg-color-light-gray; 
   }
 </style>

@@ -16,24 +16,24 @@
 export default {};
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
   
   .header {
     display: flex;
     top: 0;
     width: 100%;
-    height: 48px;
-    border-bottom: 2px solid #202225;
-    color: #ffffff;
-
+    height: $header-height;
+    border-bottom: 2px solid $bg-color-dark-gray;
+    color: $font-color;
+    
     &__channels {
-      background-color: #2f3136;
+      background-color: $bg-color-gray;
       width: 15%;
       height: 100%;
     }
 
     &__chat {
-      background-color: #36393f;
+      background-color: $bg-color-light-gray;
       width: 85%;
       height: 100%;
     }

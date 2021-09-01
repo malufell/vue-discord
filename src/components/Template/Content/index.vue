@@ -37,7 +37,7 @@ export default {
 
     &__areas {
       display: flex; 
-      height: calc(100vh - 48px);
+      height: calc(100vh - #{$header-height});
    }
   }
 

@@ -8,15 +8,12 @@
 export default {};
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
   
   .menu-servers {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    @include alignFlex(column, center);
     width: 5%;
     height: 100vh;
-    background-color: #202225;  
+    background-color: $bg-color-dark-gray;  
   }
 </style>

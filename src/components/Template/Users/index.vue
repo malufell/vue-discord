@@ -13,10 +13,7 @@ export default {};
 <style lang="scss">
   
   .users {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    @include alignFlex(column, center);
     width: 15%;
     height: 100%;
     background-color: #2f3136;  

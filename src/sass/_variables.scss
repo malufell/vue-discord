@@ -1,0 +1,12 @@
+$bg-color-dark-gray: #202225;
+$bg-color-gray: #2f3136;  
+$bg-color-light-gray: #36393f; 
+$font-color: #ffffff;
+$header-height: 48px;
+
+@mixin alignFlex($flex-direction, $justify-content){
+    display: flex;
+    flex-direction: $flex-direction;
+    align-items: center;
+    justify-content: $justify-content;
+  }
