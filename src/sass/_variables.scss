@@ -6,7 +6,8 @@ $bg-color-white: #DCDDDE;
 $bg-color-purple: #5865f2;
 
 
-$font-color: #ffffff;
+$font-color-white: #ffffff;
+$font-color-grey: #72767d;
 
 $header-height: 48px;
 
@@ -22,4 +23,5 @@ $header-height: 48px;
   height: 48px;
   border-radius: 50%;
   margin: 5px 0;
+  cursor: pointer;
 }

@@ -17,9 +17,9 @@ export default {
 
 <style lang="scss">
   *{
-    font-family: Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif;;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 </style>
