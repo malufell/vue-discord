@@ -1,18 +1,24 @@
 <template>
   <div class="menu-servers">
-    <h1>menu</h1>
+    <ServerList />
   </div>
 </template>
 
 <script>
-export default {};
+import ServerList from "../../shared/ServerList"
+
+export default {
+  components: {
+      ServerList,
+  },
+}
 </script>
 
 <style lang="scss">
   
   .menu-servers {
-    @include alignFlex(column, center);
-    width: 5%;
+    @include alignFlex(column, start);
+    width: auto;
     height: 100vh;
     background-color: $bg-color-dark-gray;  
   }

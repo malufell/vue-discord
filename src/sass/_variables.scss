@@ -1,12 +1,25 @@
 $bg-color-dark-gray: #202225;
 $bg-color-gray: #2f3136;  
-$bg-color-light-gray: #36393f; 
+$bg-color-light-gray: #36393f;
+$bg-color-green: #43B581;
+$bg-color-white: #DCDDDE;
+$bg-color-purple: #5865f2;
+
+
 $font-color: #ffffff;
+
 $header-height: 48px;
 
 @mixin alignFlex($flex-direction, $justify-content){
-    display: flex;
-    flex-direction: $flex-direction;
-    align-items: center;
-    justify-content: $justify-content;
-  }
+  display: flex;
+  flex-direction: $flex-direction;
+  align-items: center;
+  justify-content: $justify-content;
+}
+
+@mixin boxIconServer {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin: 5px 0;
+}

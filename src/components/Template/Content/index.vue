@@ -33,7 +33,7 @@ export default {
   .content {
     display: flex; 
     flex-direction: column;
-    width: 95%; 
+    width: 100%; 
 
     &__areas {
       display: flex; 
